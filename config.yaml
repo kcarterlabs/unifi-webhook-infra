@@ -1,0 +1,11 @@
+this: 
+  # id: #removed as to not commit secrets
+  # installation_id: #removed as to not commit secrets
+  repository:
+    - name: "unifi-webhook"
+      # description: "python webhook interceptor"
+      # visibility: "public"
+      image_tag_mutability: "MUTABLE"
+      scan_on_push: true
+
+
